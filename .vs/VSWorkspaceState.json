@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dto",
+    "\\Dto\\User",
+    "\\Models",
+    "\\obj\\Debug",
+    "\\Properties",
+    "\\Services",
+    "\\Services\\Author",
+    "\\Services\\Book",
+    "\\Services\\Log",
+    "\\Services\\Swagger"
+  ],
+  "SelectedNode": "\\BookCatalogAPI.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,171 @@
+Log: 
+4/3/2026 9:38:11 AM
+POST /register
+
+statusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+
+Log: 
+4/3/2026 9:39:46 AM
+POST /register
+
+statusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+
+Log: 
+4/3/2026 9:40:44 AM
+POST /register
+
+statusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+
+Log: 
+4/3/2026 9:41:33 AM
+POST /register
+
+statusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+
+Log: 
+4/3/2026 9:48:20 AM
+POST /register
+
+statusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+
+Log: 
+4/3/2026 9:53:23 AM
+POST /register
+
+statusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+
+Log: 
+4/3/2026 9:53:54 AM
+POST /register
+
+statusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+
+Log: 
+4/3/2026 10:07:28 AM
+POST /register
+
+statusCode: 200
+{"data":"gabriielfortes@gmail.com","message":"Usuário registrado com sucesso","status":true}
+
+Log: 
+4/3/2026 10:14:05 AM
+POST /login
+
+statusCode: 200
+{"data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJnYWJyaWllbGZvcnRlc0BnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwiZXhwIjoxNzc1MjUwODQ1LCJpc3MiOiJBUElfUHJvamVjdDAzIiwiYXVkIjoiQVBJX1Byb2plY3QwMyJ9.uJeJuKfmzla508wcoT9aDAXceJu6SLBPMx_ryqXuMS8","message":"Login realizado com sucesso","status":true}
+
+Log: 
+4/3/2026 10:15:18 AM
+GET /api/Autor/ListarAutores
+
+statusCode: 200
+{"data":[{"id":1,"nome":"Gabriel","sobrenome":"Editado","livros":null},{"id":2,"nome":"Jose","sobrenome":"Luz","livros":null},{"id":3002,"nome":"Laura","sobrenome":"Ross","livros":null},{"id":4002,"nome":"teste","sobrenome":"sttestering","livros":null}],"message":"Autores coletados.","status":true}
+
+Log: 
+4/3/2026 10:15:42 AM
+GET /api/Livro/ListarLivros
+
+statusCode: 200
+{"data":[{"id":1,"titulo":"Hobbit","autorId":1,"autor":null},{"id":2,"titulo":"Flores Afrodisiacas","autorId":2,"autor":null},{"id":3,"titulo":"Resnacido","autorId":2,"autor":null},{"id":4,"titulo":"Fenix","autorId":2,"autor":null},{"id":5,"titulo":"Americas","autorId":1,"autor":null},{"id":2002,"titulo":"Teste Livreto","autorId":2,"autor":null},{"id":2003,"titulo":"Teste Livreto2","autorId":2,"autor":null},{"id":2004,"titulo":"Teste Livreto2","autorId":2,"autor":null}],"message":"Livros listados.","status":true}
+
+Log: 
+4/3/2026 10:21:56 AM
+GET /api/Livro/ListarLivros
+
+statusCode: 200
+{"data":[{"id":1,"titulo":"Hobbit","autorId":1,"autor":null},{"id":2,"titulo":"Flores Afrodisiacas","autorId":2,"autor":null},{"id":3,"titulo":"Resnacido","autorId":2,"autor":null},{"id":4,"titulo":"Fenix","autorId":2,"autor":null},{"id":5,"titulo":"Americas","autorId":1,"autor":null},{"id":2002,"titulo":"Teste Livreto","autorId":2,"autor":null},{"id":2003,"titulo":"Teste Livreto2","autorId":2,"autor":null},{"id":2004,"titulo":"Teste Livreto2","autorId":2,"autor":null}],"message":"Livros listados.","status":true}
+
+Log: 
+4/3/2026 12:50:42 PM
+POST /login
+
+statusCode: 200
+{"data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJnYWJyaWllbGZvcnRlc0BnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwiZXhwIjoxNzc1MjYwMjQxLCJpc3MiOiJBUElfUHJvamVjdDAzIiwiYXVkIjoiQVBJX1Byb2plY3QwMyJ9.KeCFBC3xG6YqssXnlhWz2t0F6Ky6WBANWDt0vua9UpU","message":"Login realizado com sucesso","status":true}
+
+Log: 
+4/3/2026 1:19:27 PM
+POST /register
+
+statusCode: 200
+{"data":"gabriielfortes@gmail.com","message":"Usuário registrado com sucesso","status":true}
+
+Log: 
+4/3/2026 1:19:44 PM
+POST /login
+
+statusCode: 200
+{"data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJnYWJyaWllbGZvcnRlc0BnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwiZXhwIjoxNzc1MjYxOTg0LCJpc3MiOiJBUElfUHJvamVjdDAzIiwiYXVkIjoiQVBJX1Byb2plY3QwMyJ9.KWqEFbIgD-ZKbKowyG7j3TlsrFTpydwXGTgG1utWYt0","message":"Login realizado com sucesso","status":true}
+
+Log: 
+4/3/2026 1:19:59 PM
+GET /api/Autor/ListarAutores
+
+statusCode: 200
+{"data":[],"message":"Autores coletados.","status":true}
+
+Log: 
+4/3/2026 6:22:26 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Invalid object name 'User'.","status":false}
+
+Log: 
+4/3/2026 6:34:05 PM
+POST /register
+
+StatusCode: 200
+{"data":"gabriielfortes@gmail.com","message":"UserApp successfully registered.","status":true}
+
+Log: 
+4/3/2026 6:34:12 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Email already registered","status":false}
+
+Log: 
+4/3/2026 6:34:15 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Email already registered","status":false}
+
+Log: 
+4/3/2026 6:34:56 PM
+POST /authenticate
+
+StatusCode: 200
+{"data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJnYWJyaWllbGZvcnRlc0BnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyQXBwIiwiZXhwIjoxNzc1MjgwODk2LCJpc3MiOiJCb29rQ2F0YWxvZ0FQSSIsImF1ZCI6IkJvb2tDYXRhbG9nQVBJIn0.sDVfXfik8KhEAsovejgoyeMJ3UQJde4rNGxgdSoZPY4","message":"Login successful","status":true}
+
+Log: 
+4/3/2026 6:36:39 PM
+GET /api/Author/ListAuthors
+
+StatusCode: 200
+{"data":[],"message":"Authors listed.","status":true}
+
+Log: 
+4/3/2026 6:36:49 PM
+POST /api/Author/CreateAuthor
+{
+  "name": "string",
+  "lastName": "string"
+}
+StatusCode: 200
+{"data":{"id":1,"name":"string","lastName":"string","books":null},"message":"Author created","status":true}
+
+Log: 
+4/3/2026 6:36:54 PM
+GET /api/Author/ListAuthors
+
+StatusCode: 200
+{"data":[{"id":1,"name":"string","lastName":"string","books":null}],"message":"Authors listed.","status":true}
+

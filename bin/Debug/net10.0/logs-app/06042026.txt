@@ -1,0 +1,10 @@
+Log: 
+4/6/2026 7:56:18 AM
+POST /api/Author/CreateAuthor
+{
+  "name": "string",
+  "lastName": "string"
+}
+StatusCode: 200
+{"data":{"id":1002,"name":"string","lastName":"string","books":null},"message":"Author created","status":true}
+

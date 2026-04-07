@@ -1,0 +1,22 @@
+Log: 
+3/31/2026 6:57:08 AM
+PUT /api/Autor/EditarAutor
+{
+  "id": 1,
+  "nome": "Gabriel",
+  "sobrenome": "Editado"
+}
+StatusCode: 200
+{"dados":[{"id":1,"nome":"Gabriel","sobrenome":"Editado","livros":null},{"id":2,"nome":"Jose","sobrenome":"Luz","livros":null},{"id":3002,"nome":"Laura","sobrenome":"Ross","livros":null},{"id":4002,"nome":"teste","sobrenome":"sttestering","livros":null}],"metodo":null,"mensagem":"Autor editado com sucesso","status":true}
+
+Log: 
+3/31/2026 6:57:29 AM
+PUT /api/Autor/EditarAutor
+{
+  "id": 34,
+  "nome": "Gabriel",
+  "sobrenome": "Editado"
+}
+StatusCode: 200
+{"dados":null,"metodo":null,"mensagem":"Nenhum autor localizado","status":false}
+

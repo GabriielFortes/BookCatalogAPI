@@ -1,0 +1,131 @@
+Log: 
+4/3/2026 9:24:49 AM
+GET /
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:24:58 AM
+GET /swagger
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:25:13 AM
+GET /
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:31:33 AM
+GET /swagger/index.html
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:31:39 AM
+GET /swagger
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:31:43 AM
+GET /
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:31:54 AM
+GET /
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:32:28 AM
+GET /
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:34:45 AM
+GET /
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 9:34:48 AM
+GET /swagger/index.html
+
+statusCode: 404
+
+
+Log: 
+4/3/2026 1:19:21 PM
+GET /api/Livro/ListarLivros
+
+statusCode: 401
+
+
+Log: 
+4/3/2026 6:34:19 PM
+POST /login
+
+StatusCode: 404
+
+
+Log: 
+4/3/2026 6:34:42 PM
+POST /login
+
+StatusCode: 404
+
+
+Log: 
+4/3/2026 6:35:08 PM
+POST /api/Autor/CriarAutor
+{
+  "nome": "lu",
+  "sobrenome": "chi"
+}
+StatusCode: 404
+
+
+Log: 
+4/3/2026 6:35:22 PM
+POST /api/Autor/CreateAuthor
+{
+  "nome": "lu",
+  "sobrenome": "chi"
+}
+StatusCode: 404
+
+
+Log: 
+4/3/2026 6:35:27 PM
+POST /api/Autor/AuthorCreate
+{
+  "nome": "lu",
+  "sobrenome": "chi"
+}
+StatusCode: 404
+
+
+Log: 
+4/3/2026 6:35:39 PM
+POST /api/Author/CreateAuthor
+{
+  "nome": "lu",
+  "sobrenome": "chi"
+}
+StatusCode: 400
+{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"Name":["The Name field is required."],"LastName":["The LastName field is required."]},"traceId":"00-0f2126cdbfc105cc4fff03275bd2e6ed-23067013df579623-00"}
+

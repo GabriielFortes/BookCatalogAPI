@@ -1,0 +1,94 @@
+Log: 
+4/2/2026 8:05:10 AM
+GET /favicon.ico
+
+StatusCode: 404
+
+
+Log: 
+4/2/2026 8:09:42 AM
+POST /register/
+{
+  "email": "gabriielfortes@gmail.com",
+  "password": "G@briel741"
+}
+StatusCode: 404
+
+
+Log: 
+4/2/2026 8:09:52 AM
+POST /register
+{
+  "email": "gabriielfortes@gmail.com",
+  "password": "G@briel741"
+}
+StatusCode: 404
+
+
+Log: 
+4/2/2026 8:01:03 PM
+GET /favicon.ico
+
+StatusCode: 404
+
+
+Log: 
+4/2/2026 8:03:16 PM
+POST /register
+
+StatusCode: 500
+System.InvalidOperationException: Unable to resolve service for type 'API_Project03.Services.Auth.IAuthInterface' while attempting to activate 'API_Project03.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:5146
+User-Agent: PostmanRuntime/7.51.1
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Content-Length: 0
+Postman-Token: 9d532e91-f707-4d8d-9a5a-5dc97f04ee95
+
+
+Log: 
+4/2/2026 8:05:38 PM
+POST /register
+
+StatusCode: 500
+System.InvalidOperationException: Unable to resolve service for type 'API_Project03.Services.Auth.IAuthInterface' while attempting to activate 'API_Project03.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:5146
+User-Agent: PostmanRuntime/7.51.1
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Content-Length: 0
+Postman-Token: 93cbccab-ea15-422c-8c97-917ff4c122a2
+
+

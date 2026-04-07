@@ -1,0 +1,63 @@
+Log: 
+4/2/2026 8:07:58 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:08:33 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:13:37 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:15:22 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:15:24 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:15:45 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:15:51 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:18:09 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Erro Interno","status":false}
+
+Log: 
+4/2/2026 8:18:42 PM
+POST /register
+
+StatusCode: 200
+{"data":null,"message":"Object reference not set to an instance of an object.","status":false}
+

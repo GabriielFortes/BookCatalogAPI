@@ -1,0 +1,30 @@
+Log: 
+3/30/2026 9:20:49 PM
+POST /api/Livro/CriarLivro
+{
+  "titulo": "Teste Livreto",
+  "autorId": 2
+}
+StatusCode: 200
+{"dados":{"id":2002,"titulo":"Teste Livreto","autorId":2,"autor":{"id":2,"nome":"Jose","sobrenome":"Luz","livros":[null]}},"metodo":null,"mensagem":"Livro criado com sucesso","status":true}
+
+Log: 
+3/30/2026 9:21:04 PM
+POST /api/Livro/CriarLivro
+{
+  "titulo": "Teste Livreto2",
+  "autorId": 2
+}
+StatusCode: 200
+{"dados":{"id":2003,"titulo":"Teste Livreto2","autorId":2,"autor":{"id":2,"nome":"Jose","sobrenome":"Luz","livros":[null]}},"metodo":null,"mensagem":"Livro criado com sucesso","status":true}
+
+Log: 
+3/30/2026 9:21:12 PM
+POST /api/Livro/CriarLivro
+{
+  "titulo": "Teste Livreto2",
+  "autorId": 2
+}
+StatusCode: 200
+{"dados":{"id":2004,"titulo":"Teste Livreto2","autorId":2,"autor":{"id":2,"nome":"Jose","sobrenome":"Luz","livros":[null]}},"metodo":null,"mensagem":"Livro criado com sucesso","status":true}
+
