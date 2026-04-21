@@ -40,6 +40,7 @@ namespace BookCatalogAPI.Services.Book
                 response.Status = true;
 
                 return response;
+                throw new E
             }
             catch(Exception ex)
             {
@@ -155,7 +156,7 @@ namespace BookCatalogAPI.Services.Book
                 var book = new BookModel()
                 {
                     Title = CreateBookDto.Title,
-                    AuthorId = author.Id
+                    AuthorId = author.Id2
                 };
 
                 _context.Books.Add(book);
@@ -232,7 +233,7 @@ namespace BookCatalogAPI.Services.Book
                     response.Message = $"No books with ID {IdBook} listed for removal.";
                     response.Status = false;
 
-                    return response;
+                    return response STA;
                 }
 
                 _context.Remove(book);

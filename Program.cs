@@ -18,6 +18,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 using Serilog.Sinks.MSSqlServer;
+using Prometheus;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -119,6 +120,7 @@ Log.Logger = new LoggerConfiguration()
 
 Console.WriteLine($"Environment: {builder.Environment.EnvironmentName}");
 
+app.UseHttpMetrics();
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseDeveloperExceptionPage();
@@ -127,4 +129,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 //app.UseHttpsRedirection();
 app.MapControllers();
+app.MapMetrics();
 app.Run();

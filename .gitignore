@@ -1,2 +1,8 @@
 .env
 .appsettings.Development
+obj/
+.vs/
+*.lscache
+*.user
+appsettings.Development.json
+logs-app/
